@@ -1,0 +1,23 @@
+.article-group{
+    display: flex;
+    justify-content:space-around;
+}
+
+.article-item {
+    width: 400px;
+    height: 250px;
+    background-color: mediumturquoise;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(6,6,6,.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(6,6,6,.3)  ;
+}
+
+.article-item:hover  {
+    transition: transform .6s;
+    transform: scale3d(1.1,1.1,1.1);
+    cursor: pointer;
+}
